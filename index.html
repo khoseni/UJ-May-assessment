@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="simple-grid.css">
 </head>
-<body>
-    <h1>Hello World</h1>
+
+<body style="background-color: rgb(209, 238, 67);">
+    <section>
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{user.fullName}}</h1>
+        <h3 style="text-align: center; color: rgb(3, 3, 75)">{{user.title}}</h3>
+        <p style="text-align: center; color: blue;">{{user.phone}} {{user.email}}</p>
+        <hr>
+    </section>
+
+    <section>
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{aboutME.about}}</h1>
+        <p style="text-align: center;">{{aboutME.disc}}</p>
+        <hr>
+    </section>
+
+    <section>
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{education.edu}}</h1>
+        <h4 style="text-align: center; color: rgb(3, 3, 75)">{{education.institutionName}}</h4>
+        <p style="text-align: center;">{{education.description}}</p>
+        <p style="text-align: center;">{{education.complete}}</p>
+        <hr>
+    </section>
+
+    <section>
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{Experience.exp}}</h1>
+        <h4 style="text-align: center; color: rgb(3, 3, 75)">{{Experience.position}}</h4>
+        <h5 style="text-align: center; color: rgb(3, 3, 75)">{{Experience.compName}}</h5>
+        <p style="text-align: center;">{{Experience.yearHired}}</p>
+        <hr>
+    </section>
+
+    <section>
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{CoreSkills.Skill}}</h1>
+
+        <ul style="text-align: center;">
+            <li>
+                <h5>{{CoreSkills.Skill1}}</h5>
+                <h5>{{CoreSkills.Skill2}}</h5>
+                <h5>{{CoreSkills.Skill3}}</h5>
+                <h5>{{CoreSkills.Skill4}}</h5>
+                <h5>{{CoreSkills.Skill5}}</h5>
+            </li>
+        </ul>
+        <hr>
+    </section>
+
+    <section>
+
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{otherSkills.other}}</h1>
+
+        <ul style="text-align: center;">
+            <li>
+                <h5>{{otherSkills.other1}}</h5>
+                <h5>{{otherSkills.other2}}</h5>
+                <h5>{{otherSkills.other3}}</h5>
+                <h5>{{otherSkills.other4}}</h5>
+            </li>
+        </ul>
+
+        <hr>
+    </section>
+
+    <section>
+        <h1 style="text-align: center; color: rgb(3, 3, 75)">{{ref.refere}}</h1>
+        <p style="text-align: center;">{{ref.dis}}</p>
+        <hr>
+    </section>
+
+
 </body>
+
 </html>

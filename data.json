@@ -1,38 +1,58 @@
 {
     "user" : {
-        "fullName" : "",
+        "fullName" : "Mbhoni Khoza",
+        "title": "FullStack Developer",
         "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "phone" : " Cell: +27616287426",
+        "email" : "Email: example@gmail.com"
     },
     "education" : {
-        "institutionName" : "",
+        "edu": "Education",
+        "institutionName" : "University of South Africa",
         "photo" : "",
-        "description" : ""
+        "description" : "BSC in Mathematics and Applied Mathematics",
+        "complete" : "2021"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "Experience" : {
+       "exp": "Work Experience",
+       "position": "Position: chief FullStack Developer",
+       "compName": "Company: codeX",
+       "yearHired": "2012-Present"
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+    "Lingauges":{ 
+        "foreign": "Languages",
+        "Speak" : "English",
+        "Write" : "French",
+        "Read" : "Sign Lingauge"
+        
+    },
+
+    "CoreSkills" :{
+        "Skill": "Core Skills",
+        "Skill1": "Machine learning",
+        "Skill2": "Full stack delopment",
+        "Skill3": "Data anlysis",
+        "Skill4": "Data engineering",
+        "Skill5": "Web page development"
+       
+
+    },
+
+    "otherSkills" : {
+        "other": "Other skills",
+        "other1": "power BI",
+        "other2": "Python",
+        "other3": "JavaScript",
+        "other4": "SQL"
+    },
+
+    "aboutME":{
+        "about": "Professional Summary",
+        "disc": "As a Chief Fullstack Developer, I lead cross-functional teams in developing top-tier software solutions from start to finish. My expertise covers both front-end and back-end development, ensuring our applications are high-performing, scalable, and secure. I foster a collaborative environment that encourages innovation and professional growth. With a keen eye on emerging technologies, I drive projects forward with agility and innovation, delivering results that exceed expectations."     
+    },
+
+    "ref":{
+        "refere": "References",
+        "dis": "Upon request"
+    }
 }
